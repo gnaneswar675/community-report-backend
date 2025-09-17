@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Environment files
+.env
+.env.*
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Sensitive config
+config/secret.js
+config/*.local.js
+
+# Ignore uploads if any
+uploads/
